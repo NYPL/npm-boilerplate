@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack webpack.config.js",
     "install": "npm run build",
-    "postinstall": "npm run build"
+    "preinstall": "npm run build"
   },
   "author": "Edwin Guzman <edwinguzman@nypl.org>",
   "license": "MIT",
