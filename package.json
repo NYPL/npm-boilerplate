@@ -1,0 +1,27 @@
+{
+  "name": "NYPL DGX NPM Boilerplate",
+  "version": "0.0.1",
+  "description": "NPM Boilerplate",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "postinstall": "npm run build",
+    "build-start": "npm run build && npm run start",
+    ""
+  },
+  "author": "Edwin Guzman <edwinguzman@nypl.org>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/NYPL/dgx-npm-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+  ],
+  "bugs": {
+    "url": "https://github.com//issues"
+  },
+  "dependencies": {
+  }
+}
