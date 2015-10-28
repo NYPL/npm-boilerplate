@@ -4,9 +4,7 @@
   "description": "NPM Boilerplate",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack webpack.config.js",
-    "install": "npm run build",
-    "preinstall": "npm run build"
+    "build": "node_modules/.bin/webpack webpack.config.js"
   },
   "author": "Edwin Guzman <edwinguzman@nypl.org>",
   "license": "MIT",
