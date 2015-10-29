@@ -24,10 +24,10 @@ module.exports = {
     // Cleans the Dist folder after every build.
     new cleanBuild(['dist']),
     // Minification (Utilized in Production)
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    })
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compress: {
+    //     warnings: false
+    //   }
+    // })
   ]
 }
