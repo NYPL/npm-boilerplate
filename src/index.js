@@ -13,4 +13,4 @@ function staffPicksDate(date) {
   }
 };
 
-export default staffPicksDate;
+module.exports = staffPicksDate;
