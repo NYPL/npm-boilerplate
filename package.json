@@ -2,9 +2,9 @@
   "name": "dgx-npm-boilerplate",
   "version": "0.0.1",
   "description": "NPM Boilerplate",
-  "main": "./src/index.js",
+  "main": "./dist/index.min.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack --config webpack.config.js"
+    "build": "node_modules/.bin/webpack -p --config webpack.config.js"
   },
   "author": "Edwin Guzman <edwinguzman@nypl.org>",
   "license": "MIT",
