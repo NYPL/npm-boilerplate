@@ -1,20 +1,12 @@
 var nyplModule;
 
-nyplModule = {
-  staffPicksDate: function staffPicksDate(date) {
-    var d = date.match(/(\d{4})\-(\d{2})\-(\d{2})/),
-      // year, month (0-11), day
-      newDate = new Date(d[1], d[2] - 1, d[3]),
-      monthsArr = ['January', 'February', 'March', 'April', 'May', 'June',
-        'July', 'August', 'September', 'October', 'November', 'December'],
-      month = newDate.getMonth(),
-      year = newDate.getFullYear();
+function exampleFun(param) {
+  return param;
+};
 
-    return {
-      month: monthsArr[month],
-      year
-    };
-  }
+nyplModule = {
+  exampleFun: exampleFun,
+  exampleVar: 'This is an example variable'
 };
 
 module.exports = nyplModule;
