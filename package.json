@@ -2,7 +2,7 @@
   "name": "dgx-npm-boilerplate",
   "version": "0.0.1",
   "description": "NPM Boilerplate",
-  "main": "./dist/index.min.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "build": "node_modules/.bin/webpack -p --config webpack.config.js"
   },
