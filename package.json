@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/NYPL/dgx-npm-boilerplate.git"
+    "url": "git+https://bitbucket.org/NYPL/dgx-npm-boilerplate.git"
   },
   "keywords": [
     "webpack",
