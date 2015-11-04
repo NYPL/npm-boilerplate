@@ -1,3 +1,5 @@
+var nyplModule;
+
 function staffPicksDate(date) {
   let d = date.match(/(\d{4})\-(\d{2})\-(\d{2})/),
     // year, month (0-11), day
@@ -13,4 +15,8 @@ function staffPicksDate(date) {
   }
 };
 
-module.exports = staffPicksDate;
+nyplModule = {
+  staffPicksDate: staffPicksDate
+};
+
+module.exports = nyplModule;
